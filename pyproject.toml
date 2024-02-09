@@ -13,12 +13,29 @@ pillow = "^10.2.0"
 python-barcode = "^0.15.1"
 pydantic = "^2.6.1"
 
-
 [tool.poetry.group.dev.dependencies]
 pylint = "^3.0.3"
 pytest = "^8.0.0"
 pytest-cov = "^4.1.0"
 pre-commit = "^3.6.0"
+
+[tool.pylint]
+max-line-lengdisable = [
+  "missing-docstring",
+  "unused-argument",
+  "no-value-for-parameter",
+  "no-member",
+  "no-else-return",
+  "bad-whitespace",
+  "bad-continuation",
+  "line-too-long",
+  "fixme",
+  "protected-access",
+  "too-few-public-methods",
+]
+
+[tool.pylint.design]
+max-returns = 8th=79
 
 [build-system]
 requires = ["poetry-core"]
