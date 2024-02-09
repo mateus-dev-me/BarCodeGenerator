@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nlw-expert-python"
+version = "0.1.0"
+description = ""
+authors = ["mateus-dev-me <mateusmartinsipu2@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.2"
+pillow = "^10.2.0"
+python-barcode = "^0.15.1"
+pydantic = "^2.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.3"
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+pre-commit = "^3.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
