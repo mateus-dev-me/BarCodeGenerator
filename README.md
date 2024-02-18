@@ -32,3 +32,6 @@ Este projeto, desenvolvido como parte do evento Next Level Week (NLW) da [Rocket
    python3 run.py
 
 A API estará disponível em http://localhost:3000.
+
+![Insomnia](docs/insomnia.png)
+![Qrcode](docs/qrcode.png)
