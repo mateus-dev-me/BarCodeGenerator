@@ -1,4 +1,6 @@
 # BarCodeGenerator - API de Geração de Código de Barras
+[![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/downloads/release)
+[![Flask Version](https://img.shields.io/badge/Django-3.0%2B-green)](https://docs.djangoproject.com/en/stable/releases/)
 
 ## Visão Geral
 
