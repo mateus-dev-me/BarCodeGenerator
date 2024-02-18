@@ -6,6 +6,12 @@
 
 Este projeto, desenvolvido como parte do evento Next Level Week (NLW) da [Rocketseat](https://www.rocketseat.com.br/) na trilha Python Expert, é uma API especializada na geração de códigos de barras. Proporciona uma solução eficiente para a criação rápida e fácil de códigos de barras em projetos que necessitam dessa funcionalidade.
 
+A API estará disponível em http://localhost:3000.
+
+![Insomnia](docs/insomnia.png)
+![Qrcode](docs/qrcode.png)
+
+
 ## Funcionalidades Principais
 
 - Geração de códigos de barras a partir de dados fornecidos.
@@ -30,8 +36,3 @@ Este projeto, desenvolvido como parte do evento Next Level Week (NLW) da [Rocket
 3. **Execute a aplicação:**
    ```bash
    python3 run.py
-
-A API estará disponível em http://localhost:3000.
-
-![Insomnia](docs/insomnia.png)
-![Qrcode](docs/qrcode.png)
